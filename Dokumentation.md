@@ -143,7 +143,7 @@ Ich konnte viel über all diese Themen lernen. Im Moment betrachten wir Virtuali
 
 
 **Netzwerkplan**<br>
-![Image](./photo4.png)
+![Image](./photo9.png)
 
 **<h2>Sicherheitsmassnahmen</h2>**
 **TLS**<br>
@@ -167,13 +167,20 @@ Ich habe auch die Firewall eingeschaltet und die Ports 22 (SSH) und 80 (Webserve
 **<h2>Testfälle</h2>**
 | Testfall | Tester | Datum | Resultat |
 | :--:|:--:| :--:|:--:|
-| Beim Klicken auf der Button soll eine neue Webseite erscheinen | Nemanja Percevic | 21.03.2019 | Neue Webseite wurde erfolgreich geladen |
+| Beim Klicken auf den Submit Button soll eine neue Webseite erscheinen | Nemanja Percevic | 21.03.2019 | Neue Webseite wurde erfolgreich geladen | 
  Das Feedback-Mail soll beim Button-Anklicken gesendet werden | Nemanja Percevic | 21.03.2019 | Das Feedback-Mail wurde erfolgreich gesendet |
   Das Mail sollte nicht gesendet werden, wenn keine E-Mail-Adresse angegeben wurde | Nemanja Percevic | 21.03.2019 | Es wird nach der E-Mail Adresse gefragt |
   ufw status eingeben, um den Firewall-Status zu überprüfen | Nemanja Percevic | 21.03.2019 | Status: active |
   Anmeldung mit dem User EinBenutzer | Nemanja Percevic | 21.03.2019 | Erfolgreiche Anmeldung mit dem User EinBenutzer |
   Sudo shutdown mit dem User EinBenutzer testen | Nemanja Percevic | 21.03.2019 | Shutdown scheduled for Fri 2019-03-22 12:53:59 UTC, use 'shutdown -c' to cancel. |
 
+**Beweise**
+![Image](./photo2.png)
+![Image](./photo3.png)
+![Image](./photo5.png)
+![Image](./photo6.png)
+![Image](./photo7.png)
+![Image](./photo8.png)
 **<h2>Reflexion</h2>**
 Durch die LB1 konnte ich viel Neues lernen, aber ich musste auch viel Zeit investieren, denn mit der LB1 war fast alles neu. Wie immer konnte ich sehr gut mit Amauri Valdez zusammenarbeiten, da wir bei solchen Aufgaben meist zusammenarbeiten und uns gut verstehen. Meiner Meinung nach konnten wir beide viel lernen und uns gegenseitig sehr helfen.
 
