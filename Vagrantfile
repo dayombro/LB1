@@ -36,7 +36,7 @@ config.vm.provision "shell", inline: <<-SHELL
 
   #User in die Sudo Gruppe einfügen
 
-  usermod -aG sudo EinBenutzer
+  sudo usermod -G sudo EinBenutzer
 
   sudo apt-get update 
 
