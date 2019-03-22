@@ -115,6 +115,14 @@ Am Anfang hatte ich Probleme mit vm.synced_folders, die Dateien in der VM zu üb
 
 Ubuntu ist ein Open-Source-Software-Betriebssystem. Ubuntu ist eine Linux-Distribution, die auf Debian basiert. Ich habe Ubuntu Xenial 64 für die LB1 verwendet.
 
+**Vagrant Befehle**<br>
+vagrant ssh - SSH Verbindung zu VM<br>
+vagrant init - VM initialisieren<br>
+vagrant up - VM starten<br>
+vagrant halt - VM herunterfahren<br>
+vagrant destroy - VM löschen<br>
+vagrant box - Boxen verwalten<br>
+
 **VirtualBox**
 VirtualBox ist ein kostenloser und Open-Source Hypervisor. Es unterstützt die Erstellung und Verwaltung von virtuellen Gastmaschinen. Meine virtuelle Maschine Ubuntu Xenial 64 kann über VirtualBox gestartet und verwendet werden.
 
