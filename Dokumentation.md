@@ -20,7 +20,14 @@ Ich hatte am Anfang Schwierigkeiten mit vm.synced_folders, um die Files in der V
 
 
 **<h2>Sicherheitsmassnahmen</h2>**
+**TLS**
 Das E-Mail wird verschlüsselt mit dem Übertragungsprotokolls TLS verschickt. Das ist sehr wichtig, damit das E-Mail während der Sendung nicht zu einer dritte Person landet. Im sendmail.php file steht "$mail->SMTPSecure = 'tls';". Mit dieser Zeile wird sichergestellt, dass die E-Mails mit TLS verschlüsselt werden.
+
+**Benutzer mit Administratorrechten**
+Ebenfalls habe ich einen Benutzer "Einbenutzer" erstellt, den ich auch entsprechend in die Sudo Gruppe eingefügt habe, um die volle Sudo-Rechte zu haben.
+
+**Firewall**
+Ich habe auch die Firewall eingeschaltet und die Ports 22 (SSH) und 80(Webserver) auf Allow gesetzt und defaults auf Deny.
 
 **<h2>Testfälle</h2>**
 

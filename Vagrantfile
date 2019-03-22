@@ -28,9 +28,19 @@ config.vm.provision "shell", inline: <<-SHELL
 
   
   sudo su
+   
+  #User erstellen
+
+  useradd EinBenutzer
+  echo "EinBenutzer:password" | chpasswd
+
+  #User in die Sudo Gruppe einfügen
+
+  usermod -aG sudo EinBenutzer
 
   sudo apt-get update 
 
+  #Apache 2 installieren
   sudo apt-get -y install apache2
   
   sudo apt-get -y install php libapache2-mod-php php-mcrypt php-mysql
@@ -59,6 +69,12 @@ config.vm.provision "shell", inline: <<-SHELL
   
   sudo systemctl restart apache2
   
+  #Firewall installieren und die Ports 22(SSH) und 80(Webserver) auf Allow setzen
+  sudo ufw --force enable
+  sudo ufw default deny incoming
+  sudo ufw allow 22/tcp
+  sudo ufw allow 80/tcp
+
 
 SHELL
 
