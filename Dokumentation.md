@@ -141,7 +141,6 @@ Es geht um Zugangskontrollen, die verhindern, dass unbefugte Personen in ein Sys
 <h2>Lernschritte</h2>
 Ich konnte viel über all diese Themen lernen. Im Moment betrachten wir Virtualisierung mit VirtualBox und Linux im ÜK, aber ich hatte keine Erfahrung mit Mark-Down, Git und Vagrant. Ich konnte viele neue Dinge lernen. Ich habe auch neue Dinge über VirtualBox und Linux gelernt. Das wären z.B. neue Befehle, das Einrichten von Firewalls, etc. Ich habe auch zum ersten Mal mit Phpmailer gearbeitet. Ich hatte anfangs Schwierigkeiten, aber durch die erfolgreiche Zusammenarbeit mit Amauri Valdez konnte ich es erfolgreich implementieren.
 
-
 **Netzwerkplan**<br>
 ![Image](./photo9.png)
 
@@ -165,14 +164,15 @@ Ich habe auch die Firewall eingeschaltet und die Ports 22 (SSH) und 80 (Webserve
   sudo ufw allow 80/tcp
 ```
 **<h2>Testfälle</h2>**
+
 | Testfall | Tester | Datum | Resultat |
 | :--:|:--:| :--:|:--:|
 | Beim Klicken auf den Submit Button soll eine neue Webseite erscheinen | Nemanja Percevic | 21.03.2019 | Neue Webseite wurde erfolgreich geladen | 
- Das Feedback-Mail soll beim Button-Anklicken gesendet werden | Nemanja Percevic | 21.03.2019 | Das Feedback-Mail wurde erfolgreich gesendet |
-  Das Mail sollte nicht gesendet werden, wenn keine E-Mail-Adresse angegeben wurde | Nemanja Percevic | 21.03.2019 | Es wird nach der E-Mail Adresse gefragt |
-  ufw status eingeben, um den Firewall-Status zu überprüfen | Nemanja Percevic | 21.03.2019 | Status: active |
-  Anmeldung mit dem User EinBenutzer | Nemanja Percevic | 21.03.2019 | Erfolgreiche Anmeldung mit dem User EinBenutzer |
-  Sudo shutdown mit dem User EinBenutzer testen | Nemanja Percevic | 21.03.2019 | Shutdown scheduled for Fri 2019-03-22 12:53:59 UTC, use 'shutdown -c' to cancel. |
+| Das Feedback-Mail soll beim Button-Anklicken gesendet werden | Nemanja Percevic | 21.03.2019 | Das Feedback-Mail wurde erfolgreich gesendet |
+  | Das Mail sollte nicht gesendet werden, wenn keine E-Mail-Adresse angegeben wurde | Nemanja Percevic | 21.03.2019 | Es wird nach der E-Mail Adresse gefragt |
+  | ufw status eingeben, um den Firewall-Status zu überprüfen | Nemanja Percevic | 21.03.2019 | Status: active |
+  | Anmeldung mit dem User EinBenutzer | Nemanja Percevic | 21.03.2019 | Erfolgreiche Anmeldung mit dem User EinBenutzer |
+| Sudo shutdown mit dem User EinBenutzer testen | Nemanja Percevic | 21.03.2019 | Shutdown scheduled for Fri 2019-03-22 12:53:59 UTC, use 'shutdown -c' to cancel. |
 
 **Beweise**
 ![Image](./photo2.png)
