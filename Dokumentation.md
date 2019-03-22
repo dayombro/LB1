@@ -174,7 +174,6 @@ Ich habe auch die Firewall eingeschaltet und die Ports 22 (SSH) und 80 (Webserve
   | Anmeldung mit dem User EinBenutzer | Nemanja Percevic | 21.03.2019 | Erfolgreiche Anmeldung mit dem User EinBenutzer |
 | Sudo shutdown mit dem User EinBenutzer testen | Nemanja Percevic | 21.03.2019 | Shutdown scheduled for Fri 2019-03-22 12:53:59 UTC, use 'shutdown -c' to cancel. |
 
-**Beweise**
 ![Image](./photo2.png)
 ![Image](./photo3.png)
 ![Image](./photo5.png)
